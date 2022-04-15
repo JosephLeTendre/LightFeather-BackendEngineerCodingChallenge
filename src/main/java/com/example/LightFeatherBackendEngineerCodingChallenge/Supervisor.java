@@ -2,30 +2,30 @@ package com.example.LightFeatherBackendEngineerCodingChallenge;
 
 public class Supervisor implements java.lang.Comparable<Supervisor>{
 
-    int id;
+    String id;
     String phone;
     String jurisdiction;
     String identificationNumber;
-    String lastName;
     String firstName;
 
+    String lastName;
     public Supervisor(){
     }
 
-    public Supervisor(int id, String phone, String jurisdiction, String identificationNumber, String lastName, String firstName){
+    public Supervisor(String id, String phone, String jurisdiction, String identificationNumber, String firstName, String lastName){
         super();
         this.id = id;
         this.phone = phone;
         this.jurisdiction = jurisdiction;
         this.identificationNumber = identificationNumber;
-        this.lastName = lastName;
         this.firstName = firstName;
+        this.lastName = lastName;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;}
 
     public String getPhone() {
@@ -60,9 +60,9 @@ public class Supervisor implements java.lang.Comparable<Supervisor>{
     }
     @Override
     public String toString() {
-        //if (!isNumeric(jurisdiction)) return jurisdiction + " - " + lastName + ", " + firstName + "\n";
-        //else return "";
-        return jurisdiction + " - " + lastName + ", " + firstName + "\n";
+        if (!isNumeric(jurisdiction)) return jurisdiction + " - " + lastName + ", " + firstName + "\n";
+        else return "";
+        //return jurisdiction + " - " + lastName + ", " + firstName + "\n";
     }
 
     public static boolean isNumeric(String str) {
