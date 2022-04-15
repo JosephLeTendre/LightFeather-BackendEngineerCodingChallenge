@@ -36,4 +36,4 @@ The only thing needed to run this application is an application like Postman to 
      
 # Closing Thoughts
 
-  -This was my first time looking into the Spring Book framework and using Docker. I was not able to complete all the tasks, but in the limited amount of time I was    given and while starting from scratch I think I made some good progress. This was overall a good learning experiences and a fun project to work on for a couple of hours.
+This was my first time looking into the Spring Book framework and using Docker. I was not able to complete all the tasks, but in the limited amount of time I was    given and while starting from scratch I think I made some good progress. This was overall a good learning experiences and a fun project to work on for a couple of hours.
