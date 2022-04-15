@@ -4,7 +4,7 @@ Project for LightFeather application
 # Instructions
 The only thing needed to run this application is an application like Postman to test the API. This could also be done on the local host for GET commands
 
-# Completed parts: 
+# Completed: 
    -GET/api/supervisors
    
       -This returns the list stored in the SupervisorService class, which is a subset of the file from AWWS.
@@ -19,7 +19,7 @@ The only thing needed to run this application is an application like Postman to 
       
       -The submitted data is printed to the console.
       
-# Uncompleted
+# Uncompleted:
   -GET/api/supervisors
   
      -The GET command does not format the file from AWS in a neat fasion, and does not remove numeric “jurisdiction.
