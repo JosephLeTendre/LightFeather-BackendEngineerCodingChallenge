@@ -4,13 +4,19 @@ Project for LightFeather application
 # Instructions
 The only thing needed to run this application is an application like Postman to test the API. This could also be done on the local host for GET commands
 
-# Completed parts:
+# Completed parts: 
    -GET/api/supervisors
+   
       -This returns the list stored in the SupervisorService class, which is a subset of the file from AWWS.
+      
       -The returned list is formateed as “jurisdiction - lastName, firstName”.
+      
       -Numeric jurisdications are excluded.
+      
    -POST/api/submit
+   
       -This works only on a local level, and allows a user to input new Supervisors into the local list. These inputs can be displayed with a GET command
+      
       -The submitted data is printed to the console.
       
 # Uncompleted
